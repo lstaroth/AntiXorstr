@@ -9,6 +9,9 @@
     <em>without concerning about the algorithmic implementation of the encrypted strings.</em>
 </p>
 
+
+**!!预计近期准备更新支持加密字符串到代码特征的映射!!**
+
 ### Principle
 
 The compile-time encryption of strings using C++ template techniques has inherent patterns that are difficult to bypass and can be captured by specific rules. This plugin first identifies this feature, filters out suspicious features, and then uses Unicorn to simulate execution. The original decryption code is used to restore the encrypted string, so there is no need to worry about the design of the encryption algorithm.
